@@ -22,9 +22,10 @@ udp-policy-not-supported-behaviour = REJECT
 use-local-host-item-for-proxy = false
 
 # UPDATE
-# update-url = https://YOUR-DOMAIN/shadowrocket.conf
+update-url = https://raw.githubusercontent.com/nullcstring/sr-configs/refs/heads/main/ru_config
 
 [Rule]
+RULE-SET,https://raw.githubusercontent.com/nullcstring/sr-configs/refs/heads/main/ru_direct_nonru.list,DIRECT
 
 # Youtube
 RULE-SET,https://raw.githubusercontent.com/misha-tgshv/shadowrocket-configuration-file/main/rules/domains_youtube.list,PROXY
